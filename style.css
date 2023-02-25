@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:300%;
+    background-image:url("vecteezy_hexagon-abstract-modern-background-with-overlapping-triangle_5909540.jpg");
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color:#464646;
+    
+}
+.menu-bar{
+    background-color:rgb(30, 13, 56);
+    color:white;
+   text-align:Left;
+   font-size: 20px;
+}
+
+.menu-bar ul{
+    display:inline-flex;
+    list-style: None;
+}
+.menu-bar ul li{
+    width:120px;
+    margin:15px;
+    padding:15px;
+
+}
+#image{
+    width:220px;
+    height:40px ;
+    position:relative;
+    border:1px solid #16045f
+}
+.menu-bar ul li a{
+    text-decoration: None;
+    color:white;
+}
+.myslides{
+    display:none;
+}
+img{
+    vertical-align:middle;
+}
+.slide_show_bar{
+    max-width:100px;
+    position:relative;
+    margin:auto;
+}
+.text{
+    color:#fbfff9;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+    left:35px;
+    width: 100%;
+    text-align: center;
+}
+.number{
+    color: #f2f2f2;
+  font-size: px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot{
+          height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active {
+        background-color: #717171;
+      }
+      
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+      .Apply{
+        position:relative;
+        color:red;
+      }
+      .Apply button{
+        color:red;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    
+      .button {
+        position: relative;
+        display: block;
+        width: 200px;
+        height: 36px;
+        border-radius: 18px;
+        background-color: #c9cfd6;
+        border: solid 1px transparent;
+        color: #e41d1d;
+        font-size: 18px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .1s ease-in-out;
+        text-align:center;
+        font-family:sans-serif;
+     
+      }
+      .block {
+        display: block;
+        width: 100%;
+        border: none;
+        background: linear-gradient(115deg, #052629 10%, #9f01ea 90%);
+        color: white;
+        padding: 14px 28px;
+        font-size: 18px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration:none;
+      }
+      
+      .block:hover {
+        background-color: #ddd;
+        color: black;
+      }
